@@ -36,7 +36,6 @@ function Dashboard({ studentsData, setIsLoading }) {
             })
             setIsLoading(false)
         }
-        // setShowProgressCard(true)
     }
     return (
         <StyledDash>

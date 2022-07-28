@@ -52,7 +52,7 @@ function ProgressCard({ userStudentDetails }) {
             hasMilestoneUnlocked: completedQuestBadges >= 30 && completedSkillBadges >= 15 && (completedQuestBadges+completedSkillBadges)>=51 ? true : false,
             milestoneProgressPercentage: clamp(( ((completedQuestBadges+completedSkillBadges)/ 60)) * 100, 0, 100).toFixed(2),
             maxQuestBadges: 40,
-            maxSkillBadges: 15,
+            maxSkillBadges: 20,
             milestoneColor: "#EA4335",
             completedText: "Congrats! You totally rock! 💯"
 
